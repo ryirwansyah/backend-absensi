@@ -1,1 +1,9 @@
+config/production.json
 node_modules
+dist
+.gitlab-ci.yml
+.env.production
+.vscode
+.DS_Store
+tmp
+coverage

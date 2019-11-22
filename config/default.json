@@ -1,0 +1,67 @@
+{
+  "infobip": {
+    "username": "tncmedia",
+    "password": "Test12345"
+  },
+  "googleConfig": {
+    "clientID": "330628181074-o1cslg16996t3fo09pu7nqlipc0pvten.apps.googleusercontent.com",
+    "clientSecret": "4MG30a81biotJn_s_PC-qTiu"
+  },
+  "moduleSpecific": {
+    "customer": {
+      "appPort": "6010",
+      "grpcPort": "6011",
+      "grpcMockPort": "6012"
+    },
+    "vendor": {
+      "appPort": "6015",
+      "grpcPort": "6016",
+      "grpcMockPort": "6017"
+    },
+    "haloMassage": {
+      "appPort": "7010",
+      "grpcPort": "7011",
+      "grpcMockPort": "7012"
+    },
+    "haloMessaging": {
+      "appPort": "3050",
+      "grpcPort": "3051",
+      "grpcMockPort": "3052"
+    },
+    "haloClean": {
+      "appPort": "7015",
+      "grpcPort": "7016",
+      "grpcMockPort": "7017"
+    },
+    "haloFix": {
+      "appPort": "7025",
+      "grpcPort": "7026",
+      "grpcMockPort": "7027"
+    },
+    "haloAuto": {
+      "appPort": "7020",
+      "grpcPort": "7021",
+      "grpcMockPort": "7022"
+    },
+    "order": {
+      "appPort": "3060",
+      "grpcPort": "3061",
+      "grpcMockPort": "3062"
+    },
+    "payment": {
+      "appPort": "3070",
+      "grpcPort": "3071",
+      "grpcMockPort": "3072"
+    },
+    "marketing": {
+      "appPort": "1090",
+      "grpcPort": "1091",
+      "grpcMockPort": "1092"
+    },
+    "landingPage": {
+      "appPort": "8010",
+      "grpcPort": "8011",
+      "grpcMockPort": "8012"
+    }
+  }
+}

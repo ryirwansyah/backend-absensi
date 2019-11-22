@@ -1,0 +1,15 @@
+{
+  "moduleSpecific": {
+    "customer": {
+      "db": {
+        "host": "127.0.0.1",
+        "port": "5432",
+        "user": "postgres",
+        "name": "colabs_absensi",
+        "dialect": "postgres"
+      },
+      "publicIp": "127.0.0.1",
+      "domain": "localhost"
+    }
+  }
+}

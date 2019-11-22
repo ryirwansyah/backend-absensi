@@ -1,0 +1,12 @@
+[submodule "src/util/response"]
+	path = src/util/response
+	url = git@visa.halojasa.id:general/response.git
+[submodule "src/util/flag"]
+	path = src/util/flag
+	url = git@visa.halojasa.id:general/flag.git
+[submodule "config"]
+	path = config
+	url = git@visa.halojasa.id:backend-dev/protobuf/config.git
+[submodule "src/util/proto-files"]
+	path = src/util/proto-files
+	url = git@visa.halojasa.id:backend-dev/protobuf/proto-files.git

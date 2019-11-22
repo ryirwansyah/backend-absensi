@@ -1,0 +1,124 @@
+{
+  "moduleSpecific": {
+    "customer": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_customer",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-customer-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "vendor": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_product",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-vendor-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "haloMassage": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_product",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-massage-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "haloMessaging": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_messaging",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-messaging-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "haloClean": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_product",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-clean-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "haloFix": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_product",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-fix-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "haloAuto": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_product",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-auto-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "order": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_order",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-order-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "payment": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_payment",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-payment-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "marketing": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_express_marketing",
+        "dialect": "postgres"
+      },
+      "publicIp": "halo-marketing-api-dev.default.svc.cluster.local",
+      "domain": "localhost"
+    },
+    "blog": {
+      "db": {
+        "host": "18.136.162.206",
+        "user": "echo31_rey",
+        "name": "echo31_blog",
+        "dialect": "mysql"
+      },
+      "publicIp": "0.0.0.0",
+      "domain": "localhost"
+    },
+    "admin": {
+      "db": {
+        "host": "157.230.241.100",
+        "user": "postgres",
+        "name": "halo_admins",
+        "dialect": "postgres"
+      },
+      "publicIp": "0.0.0.0",
+      "domain": "localhost"
+    }
+  }
+}

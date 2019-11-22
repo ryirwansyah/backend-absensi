@@ -1,10 +1,16 @@
-import { Sequelize } from 'sequelize'
+import '../util/initEnv'
 
-export default connection = new Sequelize({
-    host: process.env.DB_HOST,
-    port: process.env.DB_PORT,
-    database: process.env.DB_NAME,
-    dialect: process.env.DB_DIALECT,
-    logging: false,
-    timezone: '+07:00'
+import { debugDB } from '../util/debug'
+import { Sequelize } from 'sequelize'
+import config from 'config'
+
+export const connection1 = new Sequelize({
+  host: '127.0.0.1',
+  username: 'postgres',
+  password: process.env.DB_PASS,
+  database: 'colabs_absensi',
+  dialect: 'postgres',
+  logging: false,
+  timezone: '+07:00'
 })
+
