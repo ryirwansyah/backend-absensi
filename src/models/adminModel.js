@@ -31,7 +31,7 @@ const AccountUser = connection1.define(
 
 AccountUser.prototype.generateJWT = function() {
   const { id, username, role } = this
-  const credentials = { id, master_role_id }
+  const credentials = { id, username, role }
   const token = JWT.sign(credentials, process.env.JWT_PRIVATE_KEY, {
     expiresIn: '24h'
   }) // Expiration Date For One Month
