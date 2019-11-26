@@ -5,6 +5,7 @@ const dbHelper = new SequelizeHelper(dbs, Sequelize)
 
 import admin from './adminModel'
 
+// dbHelper.sync()
 export {
   admin
 }
