@@ -17,13 +17,19 @@ const index = async (req, res, next) => {
 }
 const details = async(req,res,next) => {
     const {id} = req.params
-    await admin.findOne({where: id})
+    await admin.findOne({
+        where : {
+            id :id
+        }
+    })
     .then(data => {
         res.json({
             code:'200',
             message:'Success Listing',
             response: data
         })
+    }).catch(data => {
+        console.log(data)
     })
 }
 export {index,details}

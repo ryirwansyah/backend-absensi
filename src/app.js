@@ -9,6 +9,7 @@ import cors from 'cors'
 import helmet from 'helmet'
 import expressip from 'express-ip'
 import indexRoutes from './routes'
+import flag from '../src/util/flag/errorCode'
 import './models'
 import * as Sentry from '@sentry/node'
 import response from './util/response/response'
@@ -60,7 +61,7 @@ app.use(indexRoutes)
  */
 // app.use(Sentry.Handlers.errorHandler())
 app.use('*', (req, res, next) => {
-  response.invalidInput('Route Not Found', res, errorCode.routes_notfound)
+  response.invalidInput('Route Not Found', res, flag.request.invalid_routes)
 })
 app.use((err, req, res, next) => {
   if (err && err.error && err.error.isJoi) {
